@@ -1,0 +1,22 @@
+---
+title: 'Post 10'
+date: 2023-07-30
+permalink: /posts/gsoc/lpython/post-9/
+tags:
+  - GSoC
+  - LPython
+---
+<!--more-->
+In the last week, I started with another implementation of sets, that uses Separate Chaining for collision-resolution. This was the second implementation, the first being with Linear Probing. This week, I completed this implementation, fixing bugs, and identifying some more in the existing dictionary implementation.
+
+## Set (Separate Chaining, continued) (#2198)
+
+As described in the last post, this implementation uses one linked list per hash value to allow for more than one element having the same hash.
+
+The earlier implementation had bugs that did not correct identify duplicates in the set. In addition, remove function was not actually removing elements due to incorrect assignment of variables. I fixed these and other issues, testing all of these in the integration tests.
+
+To complete this, I benchmarked this implementation (updated gist here). It turns out that this new implementation is not significantly better than the Linear Probing one.
+
+## Reserve function (#2232)
+
+I will work on this issue in the next week, as it affects existing benchmarks. This basically reserves space for a list at the start of an algorithm. Equivalent functions are available in C++ with the same name
