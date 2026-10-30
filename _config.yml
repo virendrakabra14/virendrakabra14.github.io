@@ -24,11 +24,11 @@ repository               : "virendrakabra14/virendrakabra14.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Virendra Kabra"
   pronouns         : # example: "she/her"
   bio              : "Short biography for the left-hand sidebar"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "Earth"
   uri              : # URL
   email            : "none@example.org"
 
@@ -254,7 +254,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _teaching
   - scope:
       path: ""
