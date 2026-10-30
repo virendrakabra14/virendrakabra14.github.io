@@ -17,3 +17,5 @@ I'm currently a quantitative researcher at **Quadeye**, and previously interned 
 My interests span machine learning, algorithms, and computer systems. During my undergraduate studies, I worked on research projects in machine learning and explored programming languages and compilers through systems projects.
 
 You can find some of my work on the [Projects](/projects/) page.
+
+Outside of work, I enjoy watching movies, particularly sci-fi and thrillers, and reading fiction. I'm also an avid cricket follower.
